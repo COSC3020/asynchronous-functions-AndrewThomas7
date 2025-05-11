@@ -27,3 +27,5 @@ console.assert(KeyCountAsync(TestArr4,4).then((outcome)=>{console.log(outcome==4
 console.assert(KeyCountAsync(TestArr4,19).then((outcome)=>{console.log(outcome==2)})==true)
 console.assert(KeyCountAsync(TestArr4,7).then((outcome)=>{console.log(outcome==4)})==true)
 console.assert(KeyCountAsync(TestArr4,'a').then((outcome)=>{console.log(outcome==2)})==true)
+console.assert(KeyCountAsync(TestArr4,4).then((outcome)=>{console.log(outcome==4)})==true)
+

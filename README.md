@@ -58,3 +58,9 @@ async function KeyCountAsync(array,key){
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+# Answer
+
+Here we begin by initalizing a count for the number of times the given key appears, this is a negligible statement. Next we loop through all the items in the array and use a callback function called count as we go through.Count is an async function and uses a promise to return either a resolved state or a reject state. This logic for this is simple and is just two comparions making these operations negligible for the ultimate time complexity too. This outcome is returned and then based off the result we choose to add to the count or not to. If the key matches an item we increiment and if not we don't overall this process takes $\theta(n)$ because are at most only looping though the items in the array. Nothing else contributes here.
+
+$$\theta(n)$$
